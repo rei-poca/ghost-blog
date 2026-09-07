@@ -1,0 +1,12 @@
+# Ghost runtime 运行环境（由 ghost-cli 安装生成），不上传 git
+runtime/**
+!runtime/.gitkeep
+
+# 本实验指导文件与抽取文本不上传
+实验01-开源个人博客系统二次开发.pdf
+实验01.txt
+
+node_modules/
+*.db
+*.DS_Store
+*.zip
