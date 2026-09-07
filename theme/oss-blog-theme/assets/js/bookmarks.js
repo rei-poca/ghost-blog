@@ -197,10 +197,10 @@
     }
 
     document.addEventListener('click', function (e) {
-        var toggle = e.target.closest('[data-bookmark-toggle]');
-        if (toggle) {
+        var toggleBtn = e.target.closest('[data-bookmark-toggle]');
+        if (toggleBtn) {
             e.preventDefault();
-            toggle(toggle);
+            toggle(toggleBtn);
             return;
         }
 
