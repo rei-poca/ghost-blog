@@ -53,16 +53,18 @@ production stylesheet in assets/built/screen.css
 
 :root {
     --color-white: #fff;
-    --color-lighter-gray: rgb(0 0 0 / 0.05);
-    --color-light-gray: #e6e6e6;
-    --color-mid-gray: #ccc;
-    --color-dark-gray: #444;
-    --color-darker-gray: #15171a;
+    --color-lighter-gray: #F7EFE9;
+    --color-light-gray: #EFE4DC;
+    --color-mid-gray: #D9CCC2;
+    --color-dark-gray: #6E625B;
+    --color-darker-gray: #463F3A;
     --color-black: #000;
     --color-primary-text: var(--color-darker-gray);
-    --color-secondary-text: rgb(0 0 0 / 0.55);
-    --color-border: rgb(0 0 0 / 0.08);
-    --color-dark-border: rgb(0 0 0 / 0.55);
+    --color-secondary-text: #9A8F88;
+    --color-border: #F0E4DB;
+    --color-dark-border: #B8AEA7;
+    --background-color: #FBF7F2 !important;
+    --ghost-accent-color: #F2A0B5 !important;
     --font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --font-serif: "EB Garamond", Georgia, Times, serif;
     --font-serif-alt: Georgia, Times, serif;
