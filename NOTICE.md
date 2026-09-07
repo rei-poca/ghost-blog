@@ -20,7 +20,23 @@
 | imagesloaded | https://github.com/desandro/imagesloaded | MIT |
 | 书签图标（bookmark） | Heroicons https://github.com/tailwindlabs/heroicons | MIT |
 
-## 3. 二次开发声明
+## 3. 图片资源与数据/模型
+
+### 图片资源
+
+| 资源 | 来源 | 许可证 | 用途 |
+| --- | --- | --- | --- |
+| default-skin.png / default-skin.svg | PhotoSwipe 默认皮肤 | MIT | 文章图片灯箱默认样式 |
+| preloader.gif | Source 主题内置 | MIT（随 Source） | 主题加载动画 |
+
+演示文章内容均为本地录入的测试数据，多采用无封面图，未引入外部图片。
+
+### 数据与模型
+
+- 演示数据（文章、标签、会员账号、评论）均为本地测试数据，非第三方数据集。
+- 本项目**未使用**任何 AI / 机器学习模型，无需相关归因。
+
+## 4. 二次开发声明
 
 - 本项目保留 Ghost 与 Source 主题的原始 `LICENSE`（MIT）。
 - `theme/oss-blog-theme` 是对 `TryGhost/Source` 的 Fork 与修改，`package.json` 中的 `name`、`version`、`description` 已更新以区别于上游，未将上游成果冒充原创。
