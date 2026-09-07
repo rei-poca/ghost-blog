@@ -10,3 +10,5 @@ node_modules/
 *.db
 *.DS_Store
 *.zip
+*.map
+!theme/**/*.zip

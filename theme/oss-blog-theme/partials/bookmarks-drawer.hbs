@@ -1,0 +1,16 @@
+<div class="gh-bookmarks-drawer" data-bookmarks-drawer aria-hidden="true">
+    <div class="gh-bookmarks-drawer-backdrop" data-bookmarks-close></div>
+    <aside class="gh-bookmarks-drawer-panel" role="dialog" aria-modal="true" aria-label="{{t "Reading list"}}">
+        <header class="gh-bookmarks-drawer-header">
+            <h2 class="gh-bookmarks-drawer-title is-title">{{t "Reading list"}}</h2>
+            <button class="gh-icon-button" type="button" data-bookmarks-close aria-label="{{t "Close"}}">
+                {{> "icons/close"}}
+            </button>
+        </header>
+        <p class="gh-bookmarks-empty" data-bookmarks-empty>{{t "You have no saved articles yet."}}</p>
+        <ul class="gh-bookmarks-list" data-bookmarks-list></ul>
+        <footer class="gh-bookmarks-drawer-footer">
+            <button class="gh-bookmarks-clear" type="button" data-bookmarks-clear hidden>{{t "Clear all"}}</button>
+        </footer>
+    </aside>
+</div>
